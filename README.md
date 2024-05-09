@@ -1,18 +1,18 @@
-# Αποθήκη Δεδομένων για Ηλεκτρονικές Συναλλαγές Καρτών
-Αυτό το έργο αναπτύχθηκε για τη δημιουργία μιας αποθήκης δεδομένων που αποσκοπεί στην ανάλυση των ηλεκτρονικών συναλλαγών καρτών πελατών μιας τράπεζας για τα έτη 2015 έως 2020.
-## Σκοπός
+# Data Warehouse for Electronic Card Transactions
+This project was developed to create a data warehouse aimed at analyzing electronic card transactions of bank customers for the years 2015 to 2020.
 
-Ο σκοπός αυτής της αποθήκης δεδομένων είναι να επιτρέπει στη διοίκηση της τράπεζας να αναλύει τις ηλεκτρονικές συναλλαγές καρτών για την παραγωγή στατιστικών αναφορών και την εξαγωγή χρήσιμων πληροφοριών.
+## Purpose
 
-## Δυνατότητες
+The purpose of this data warehouse is to enable the bank's management to analyze electronic card transactions for generating statistical reports and extracting useful information.
 
-- Ανάλυση συναλλαγών βάσει:
-  - Επωνυμίας και είδους καρτών
-  - Φύλου και ηλικίας κατόχων
-  - Τύπου συναλλαγών
-  - Πόλης
-- Παραγωγή στατιστικών αναφορών ανά μήνα, τρίμηνο και έτος.
+## Features
 
-## Απαιτήσεις
+- Analysis of transactions based on:
+  - Card brand and type
+  - Gender and age of cardholders
+  - Transaction type
+  - City
+- Generation of statistical reports by month, quarter, and year.
 
-Οι απαιτήσεις περιλαμβάνουν την ανάπτυξη του λογικού σχήματος της αποθήκης δεδομένων, την τροφοδότησή της με τα δεδομένα του αρχείου "CardsTransactions.txt" και την εκτέλεση επερωτήσεων για την παραγωγή στατιστικών αναφορών.
+## Requirements
+The requirements include the development of the logical schema of the data warehouse, feeding it with data from the "CardsTransactions.txt" file, and executing queries to produce statistical reports.
